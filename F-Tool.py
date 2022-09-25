@@ -45,7 +45,7 @@ class Home:
 		#self.styleText("\n [*] Downloading Proxy...\n")
 		file_name = "utils/http.txt"
 		http_proxies = [
-			"https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all",
+			"https://raw.githubusercontent.com/img-test/F-Tool/main/proxy/http_proxies.txt",
 			"https://www.proxy-list.download/api/v1/get?type=http&anon=elite",
 			"https://www.proxy-list.download/api/v1/get?type=http&anon=anonymous"]
 		with open(file_name, 'w'):
