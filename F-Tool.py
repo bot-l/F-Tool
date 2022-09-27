@@ -65,12 +65,12 @@ class Home:
 
 	def home(self): # don't edit this banner lol
 		print(f"""
-                        {Color.LG}╔══════════════════════╗
-    {Color.LC}╔═╗{Color.LB} ╔╦╗╔═╗╔═╗╦      {Color.LG}║ {Color.LR}Created: {Color.LY}5/3/22      {Color.LG}║
-    {Color.LC}╠╣{Color.LB}{Color.LR}───{Color.LB}║ ║ ║║ ║║      {Color.LG}║ {Color.LR}Updated: {Color.LY}8/3/22      {Color.LG}║
-    {Color.LC}╚{Color.LB}    ╩ ╚═╝╚═╝╩═╝{Color.LG}v2  {Color.LG}║ {Color.LB}Simple but mighty XD {Color.LG}║
-                        {Color.LG}╚══════════════════════╝
-    {Color.LR}[{Color.LG}>     Made with ☕ By FDc0d3 & Aya    {Color.LG}<{Color.LR}]""")
+                        {Color.LG}โ•”โ•โ•โ•โ•โ•โ•โ•โ•โ•โ•โ•โ•โ•โ•โ•โ•โ•โ•โ•โ•โ•โ•โ•—
+    {Color.LC}โ•”โ•โ•—{Color.LB} โ•”โ•ฆโ•—โ•”โ•โ•—โ•”โ•โ•—โ•ฆ      {Color.LG}โ•‘ {Color.LR}Created: {Color.LY}5/3/22      {Color.LG}โ•‘
+    {Color.LC}โ• โ•ฃ{Color.LB}{Color.LR}โ”€โ”€โ”€{Color.LB}โ•‘ โ•‘ โ•‘โ•‘ โ•‘โ•‘      {Color.LG}โ•‘ {Color.LR}Updated: {Color.LY}8/3/22      {Color.LG}โ•‘
+    {Color.LC}โ•{Color.LB}    โ•ฉ โ•โ•โ•โ•โ•โ•โ•ฉโ•โ•{Color.LG}v2  {Color.LG}โ•‘ {Color.LB}Simple but mighty XD {Color.LG}โ•‘
+                        {Color.LG}โ•โ•โ•โ•โ•โ•โ•โ•โ•โ•โ•โ•โ•โ•โ•โ•โ•โ•โ•โ•โ•โ•โ•โ•
+    {Color.LR}[{Color.LG}>     Made with โ• By FDc0d3 & Aya    {Color.LG}<{Color.LR}]""")
 		print(Color.LC+"    Type "+Color.LB+"'HELP'"+Color.LC+" to see all commands\n\n")
 		print(Color.LR+"["+Color.LG+"01"+Color.LR+"]"+Color.LC+" Proxy")
 		print(Color.LR+"["+Color.LG+"02"+Color.LR+"]"+Color.LC+" WebTool")
@@ -79,7 +79,7 @@ class Home:
 		print("\n")
 		while True:
 			try:
-				sys.stdout.write(Color.LB+"╔═══"+Color.LR+"["+Color.LG+"F-Toolv2"+Color.LB+"@"+Color.LG+"Home"+Color.LR+"]"+Color.LB+"\n╚══> "+Color.RESET)
+				sys.stdout.write(Color.LB+"โ•”โ•โ•โ•"+Color.LR+"["+Color.LG+"root"+Color.LB+"@"+Color.LG+"Home"+Color.LR+"]"+Color.LB+"\nโ•โ•โ•> "+Color.RESET)
 				option = input()
 				if option in ['01', '1']:
 					os.system('clear')
@@ -277,7 +277,7 @@ class Tool:
 		print(Color.LR+"["+Color.LG+"04"+Color.LR+"]"+Color.LC+" SOCKS5 PROXY")
 		print("\n")
 		while True:
-				sys.stdout.write(Color.LB+"╔═══"+Color.LR+"["+Color.LG+"F-Toolv2"+Color.LB+"@"+Color.LG+"Proxy"+Color.LR+"]"+Color.LB+"\n╚══> "+Color.RESET)
+				sys.stdout.write(Color.LB+"โ•”โ•โ•โ•"+Color.LR+"["+Color.LG+"root"+Color.LB+"@"+Color.LG+"Proxy"+Color.LR+"]"+Color.LB+"\nโ•โ•โ•> "+Color.RESET)
 				option = input()
 				if option in ['01', '1']:
 					with open("http.txt", 'w') as p:
@@ -336,7 +336,7 @@ class Tool:
 		print(Color.LR+"["+Color.LG+"05"+Color.LR+"]"+Color.LC+" EXTRACT LINK")
 		print("\n")
 		while True:
-			sys.stdout.write(Color.LB+"╔═══"+Color.LR+"["+Color.LG+"F-Toolv2"+Color.LB+"@"+Color.LG+"Webtool"+Color.LR+"]"+Color.LB+"\n╚══> "+Color.RESET)
+			sys.stdout.write(Color.LB+"โ•”โ•โ•โ•"+Color.LR+"["+Color.LG+"root"+Color.LB+"@"+Color.LG+"Webtool"+Color.LR+"]"+Color.LB+"\nโ•โ•โ•> "+Color.RESET)
 			option = input()
 			if option in ['01', '1']:
 				while True:
@@ -452,7 +452,7 @@ class Tool:
 		print(Color.LR+"["+Color.LG+"02"+Color.LR+"]"+Color.LC+" Layer7")
 		print("\n")
 		while True:
-			sys.stdout.write(Color.LB+"╔═══"+Color.LR+"["+Color.LG+"F-Toolv2"+Color.LB+"@"+Color.LG+"L4/L7/BBoS"+Color.LR+"]"+Color.LB+"\n╚══> "+Color.RESET)
+			sys.stdout.write(Color.LB+"โ•”โ•โ•โ•"+Color.LR+"["+Color.LG+"root"+Color.LB+"@"+Color.LG+"L4/L7/BBoS"+Color.LR+"]"+Color.LB+"\nโ•โ•โ•> "+Color.RESET)
 			option = input()
 			if option in ['01', '1']:
 				os.system('clear');self.l4()
@@ -496,7 +496,7 @@ class Tool:
 		print(Color.LR+"["+Color.LG+"00"+Color.LR+"]"+Color.LC+" Return")
 		print("\n")
 		while True:
-			sys.stdout.write(Color.LB+"╔═══"+Color.LR+"["+Color.LG+"F-Toolv2"+Color.LB+"@"+Color.LG+"Layer4"+Color.LR+"]"+Color.LB+"\n╚══> "+Color.RESET)
+			sys.stdout.write(Color.LB+"โ•”โ•โ•โ•"+Color.LR+"["+Color.LG+"root"+Color.LB+"@"+Color.LG+"Layer4"+Color.LR+"]"+Color.LB+"\nโ•โ•โ•> "+Color.RESET)
 			option = input()
 			if option in ['01', '1']:
 				try:
@@ -590,7 +590,7 @@ class Tool:
 		print(Color.LR+"["+Color.LG+"00"+Color.LR+"]"+Color.LC+" Return")
 		print("\n")
 		while True:
-			sys.stdout.write(Color.LB+"╔═══"+Color.LR+"["+Color.LG+"F-Toolv2"+Color.LB+"@"+Color.LG+"Layer7"+Color.LR+"]"+Color.LB+"\n╚══> "+Color.RESET)
+			sys.stdout.write(Color.LB+"โ•”โ•โ•โ•"+Color.LR+"["+Color.LG+"root"+Color.LB+"@"+Color.LG+"Layer7"+Color.LR+"]"+Color.LB+"\nโ•โ•โ•> "+Color.RESET)
 			option = input()
 			if option in ['01', '1']:
 				try:
@@ -680,7 +680,7 @@ def spoof_useragents():
 	}
 
 def main():
-	#  checking if you're gay 😏
+	#  checking if you're gay ๐
 	F_Tool.styleText("[+] Checking Dependencies...\n\n")
 	pkgs = ['screen', 'node']
 	install = True
