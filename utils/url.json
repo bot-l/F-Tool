@@ -3,7 +3,7 @@
      "Proxies": [
           {
                "type": 1,
-               "url": "https://raw.githubusercontent.com/img-test/F-Tool/main/proxy/http_proxies.txt",
+               "url": "https://raw.githubusercontent.com/bot-l/F-Tool/main/proxy/http_proxies.txt",
                "timeout": 5
           },
           {
