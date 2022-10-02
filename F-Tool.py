@@ -45,7 +45,18 @@ class Home:
 		#self.styleText("\n [*] Downloading Proxy...\n")
 		file_name = "utils/http.txt"
 		http_proxies = [
-			"https://proxyspace.pro/http.txt"]
+			"https://sheesh.rip/http.txt",
+			"https://proxyspace.pro/http.txt",
+			"https://api.openproxylist.xyz/http.txt",
+			"https://api.proxyscrape.com/?request=displayproxies&proxytype=http",
+			"http://alexa.lr2b.com/proxylist.txt",
+			"https://multiproxy.org/txt_all/proxy.txt",
+			"https://proxyspace.pro/http.txt",
+			"http://proxysearcher.sourceforge.net/Proxy%20List.php?type=http",
+			"https://www.freeproxychecker.com/result/http_proxies.txt",
+			"https://www.proxyscan.io/download?type=http",
+			"https://www.proxy-list.download/api/v1/get?type=http",
+			"http://rootjazz.com/proxies/proxies.txt"]
 		with open(file_name, 'w'):
 			for proxies in http_proxies:
 				if httpx.get(proxies).status_code == 200:
