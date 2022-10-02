@@ -45,8 +45,7 @@ class Home:
 		#self.styleText("\n [*] Downloading Proxy...\n")
 		file_name = "utils/http.txt"
 		http_proxies = [
-			"https://raw.githubusercontent.com/bot-l/F-Tool/main/proxy/proxydb_http.txt",
-			"https://sheesh.rip/http.txt"]
+			"https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all"]
 		with open(file_name, 'w'):
 			for proxies in http_proxies:
 				if httpx.get(proxies).status_code == 200:
