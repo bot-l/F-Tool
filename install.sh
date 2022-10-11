@@ -3,4 +3,5 @@ npm i fake-useragent
 npm i randomstring
 npm i request
 pip3 install -r requirements.txt
+clear
 python3 F-Tool.py
