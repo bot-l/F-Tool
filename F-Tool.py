@@ -16,7 +16,6 @@ import time
 import json
 import time
 try: #pip3 install httpx requests speedtest colorama
-	import speedtest
 	import colorama
 	import requests
 	import httpx
