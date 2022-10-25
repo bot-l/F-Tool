@@ -3,7 +3,7 @@
      "Proxies": [
           {
                "type": 1,
-               "url": "https://raw.githubusercontent.com/bot-l/F-Tool/main/proxy/http_proxies.txt",
+               "url": "https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all",
                "timeout": 5
           },
           {
